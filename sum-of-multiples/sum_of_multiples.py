@@ -1,7 +1,7 @@
 def sum_of_multiples(limit, multiples):
     total = []
     for num in multiples:
-        for i in range(limit):
+        for i in range(1, limit):
             res = num * i
             if res < limit and res not in total:
                 total.append(res)
