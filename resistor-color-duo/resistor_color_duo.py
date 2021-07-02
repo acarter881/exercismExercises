@@ -1,0 +1,2 @@
+def value(colors):
+    return int(''.join([str(dict(zip(['black', 'brown', 'red', 'orange', 'yellow', 'green', 'blue', 'violet', 'grey', 'white'], range(10)))[colors[i]]) for i in range(len(colors))][:2]))
