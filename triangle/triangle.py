@@ -16,4 +16,4 @@ def scalene(sides):
 
 def isValidTriangle(sides):
     a, b, c = sides[0], sides[1], sides[2]
-    if a + b >= c and b + c >= a and a + c >=b: return True
+    if a + b >= c and b + c >= a and a + c >= b: return True
